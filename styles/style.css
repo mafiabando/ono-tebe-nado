@@ -134,7 +134,7 @@
 
 .lots {
   position: relative;
-  margin: 179px 24px 146px;
+  margin: 179px 24px 0;
 }
 
 .lots_heading {
@@ -240,7 +240,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-left: 47px;
-  margin: 0 25px 180px 25px;
+  margin: 181px 25px 180px 25px;
 }
 
 .about_column {
@@ -279,19 +279,21 @@
   min-width: 688px;
   font-size: 20px;
   line-height: 24px;
+  letter-spacing: 0.2;
 }
 
 .about_text:last-child {
   min-width: 693px;
   margin-bottom: 0;
   font-size: 20px;
+  letter-spacing: normal;
 }
 
 .about_letter-spacing-extended {
   letter-spacing: 0.8px;
 }
 
-.about_but_letter-spacing-extended {
+.about_p_letter-spacing-extended {
   letter-spacing: 0.2px;
 }
 

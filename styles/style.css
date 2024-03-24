@@ -330,3 +330,7 @@
   width: 48px;
   height: 48px;
 }
+
+.footer_menu-link_active {
+  text-decoration: none;
+}
